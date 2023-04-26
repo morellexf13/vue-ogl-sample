@@ -12,7 +12,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/morellexf26/vue-ogle-sample.git"
+    "url": "https://github.com/morellexf13/vue-ogl-sample.git"
   },
   "scripts": {
     "serve": "vue-cli-service serve",
