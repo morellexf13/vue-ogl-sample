@@ -1,7 +1,19 @@
 {
   "name": "vue-ogl-sample",
-  "version": "0.1.0",
-  "private": true,
+  "description": "A Vue 3 OGL sample",
+  "private": false,
+  "version": "0.1.1",
+  "license": "MIT",
+  "keywords": [
+    "ogl",
+    "vue",
+    "sample",
+    "particles"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/morellexf26/vue-ogle-sample.git"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
