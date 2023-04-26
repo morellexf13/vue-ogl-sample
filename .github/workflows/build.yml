@@ -2,13 +2,12 @@ name: Build
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   pull_request:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
     environment: VUE_OGL_SAMPLE_PROD
     strategy:
@@ -16,7 +15,6 @@ jobs:
         node-version: [16.x]
 
     steps:
-      if: endsWith(github.ref, 'main')
-    - uses: JS-DevTools/npm-publish@v1
-      with:
-        token: ${{ secrets.NPM_TOKEN }}
+      - uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
