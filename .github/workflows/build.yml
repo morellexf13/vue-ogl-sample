@@ -9,7 +9,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    environment: VUE_OGL_SAMPLE_PROD
     strategy:
       matrix:
         node-version: [16.x]
