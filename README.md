@@ -20,6 +20,9 @@
 [![Docs](https://img.shields.io/badge/-Docs-blue.svg?style=for-the-badge)](https://github.com/oframe/ogl/blob/master/examples/particles.html)
 
 </div>
+
+<img alt='Sample' src="./src/assets/screenshots/sample.png" />
+
 <br>
 
 ## 🚀 Install
