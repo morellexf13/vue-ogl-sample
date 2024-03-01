@@ -2,7 +2,7 @@
   "name": "vue-ogl-sample",
   "description": "A Vue 3 OGL sample",
   "private": false,
-  "version": "0.1.4",
+  "version": "0.1.6",
   "license": "MIT",
   "keywords": [
     "ogl",
